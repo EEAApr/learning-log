@@ -1,0 +1,43 @@
+# ---- 系统 ----
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# ---- 编辑器 ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- Office 临时文件（本机常见）----
+~$*.doc*
+~$*.xls*
+~$*.ppt*
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# ---- Node ----
+node_modules/
+npm-debug.log*
+yarn-error.log*
+dist/
+
+# ---- 数据与产物（不要进库，会撑大仓库）----
+*.zip
+*.7z
+*.iso
+*.mp4
+*.psd
+*.exe
+
+# 本地草稿：命名任意，带 .local 后缀的文件不进库
+*.local*
